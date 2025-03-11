@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            div{
+            height: 200px;
+            width: 200px;
+            background-image:url("images/imagespng.jpg");
+            position: relative;
+            animation: manasi;
+            animation-duration: 5s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes manasi{
+            0%{background-color: red;left:0px;top:0px}
+            25%{background-color: rgb(144, 211, 27);left:300px;top:0px}
+            50%{background-color: rgb(42, 156, 176);left:300px;top:300px}
+            75%{background-color: rgb(26, 35, 131);left:0px;top:300px}
+            100%{background-color: red;left:0px;top:0px}
+
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
